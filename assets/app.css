@@ -5,3 +5,31 @@
     background-color: black;
     color: white;
 }
+@media screen and (max-width: 768px) {
+    .display {
+      display: none;
+    }
+
+   
+
+.wrap-icon{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .footer-wrap {
+    display: flex;
+    justify-content: space-around;
+  }
+
+.nav-black{
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+
+}
